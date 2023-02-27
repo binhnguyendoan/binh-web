@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sanpham.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="shortcut icon" href="img/Jumpman_logo.svg.png" type="image/x-icon">
+    
+    <title>SẢN PHẨM</title>
+</head>
+
+<body>
+
+    <!-- HEADER section -->
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="" class="logo">
+            <svg aria-hidden="true" class="pre-logo-svg" focusable="false" viewBox="0 0 24 24" role="img" fill="none">
+                <path fill="currentColor" fill-rule="evenodd"
+                    d="M21 8.719L7.836 14.303C6.74 14.768 5.818 15 5.075 15c-.836 0-1.445-.295-1.819-.884-.485-.76-.273-1.982.559-3.272.494-.754 1.122-1.446 1.734-2.108-.144.234-1.415 2.349-.025 3.345.275.2.666.298 1.147.298.386 0 .829-.063 1.316-.19L21 8.719z"
+                    clip-rule="evenodd"></path>
+            </svg>
+        </a>
+        <nav class="navbar">
+            <a href="giay.html">Trang chủ</a>
+            <a href="sanpham.html">Sản phẩm</a>
+            <a href="">Yêu Thích</a>
+            <a href="">Giới Thiệu</a>
+        </nav>
+        <div class="icons">
+            <div class="search-form">
+                <div class="search"><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></div>
+                <input type="text" placeholder="Tìm kiếm">
+            </div>
+            <i class=" fa-solid fa-magnifying-glass" id="search-btn"></i>
+            <a href="" class="fas fa-heart" id="heart"></a>
+            <a href="" class="fas fa-shopping-cart"></a>
+            <a href="login.html" class="fas fa-user"></a>
+        </div>
+    </header>
+
+    <!-- HEADER section END -->
+    <main class="main" id="main">
+        <div class="main-container">
+            <div class="main-text">
+                <p>Tất cả</p>
+            </div>
+            <div class="main-menu">
+                <div class="filter-main-menu">
+                    <label for="filter-prod-open" class="select">
+                        <div class="item-filtem">Sắp xếp theo</div>
+                        <div class="icons-down">
+                            <i class="fa-solid fa-chevron-down" id="down"></i>
+                        </div>
+                    </label>
+                    <input type="checkbox" class="" id="filter-prod-open" hidden>
+                    <div class="main-menu-list">
+                        <a href="">
+                            <p>Mặc định</p>
+                        </a>
+                        <a href="">
+                            <p>Mới nhất</p>
+                        </a>
+                        <a href="">
+                            <p>Mua nhiều nhất </p>
+                        </a>
+                        <a href="">
+                            <p>Được yêu thích nhất </p>
+                        </a>
+                        <a href="">
+                            <p>Giá cao đến thấp</p>
+                        </a>
+                        <a href="">
+                            <p>Giá thấp đến cao</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <!-- SECTION START -->
+
+    <section class="list-item" id="list-item">
+
+        <div class="list-container">
+            <div class="list-menu">
+                <div class="list-menu-size">
+                    <div class="list-menu-size-select">
+                        <label for="A" class="select">
+                            <div class="item-size-title">Size</div>
+                            <div class="icons-down">
+                                <i class="fa-solid fa-chevron-down" id="down"></i>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="main-menu-list-item ">
+                        <div class="main-menu-list ">
+                            <a href="">
+                                <p>38</p>
+                            </a>
+                            <a href="">
+                                <p>39</p>
+                            </a>
+                            <a href="">
+                                <p>40</p>
+                            </a>
+                            <a href="">
+                                <p>41</p>
+                            </a>
+                            <a href="">
+                                <p>42</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-menu-size">
+                    <div class="list-menu-size-select">
+                        <label for="A" class="select">
+                            <div class="item-size-title">Màu sắc</div>
+                            <div class="icons-down">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="main-menu-list-item ">
+                        <div class="main-menu-size-size">
+                            <a href="">
+                                <p style="background: red;"></p>
+                            </a>
+                            <a href="">
+                                <p style="background: blue;"></p>
+                            </a>
+                            <a href="">
+                                <p style="background: black;"></p>
+                            </a>
+                            <a href="">
+                                <p style="background: green;"></p>
+                            </a>
+                            <a href="">
+                                <p style="background: #eee;"></p>
+                            </a>
+                            <a href="">
+                                <p style="background: yellow;"></p>
+                            </a>
+                            <a href="">
+                                <p style="background: brown;"></p>
+                            </a>
+                            <a href="">
+                                <p style="background: pink;"></p>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="list-menu-size">
+                    <div class="list-menu-size-select">
+                        <label for="A" class="select">
+                            <div class="item-size-title">Lọc giá</div>
+                            <div class="icons-down">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="main-menu-list-item ">
+                        <div class="main-menu-size-price">
+                            <label class="checkbox-info" for="filter-duoi1">
+                                <input type="checkbox" id="filter-duoi1">
+                                <p>Giá dưới 1.000.000đ</p>
+                            </label>
+
+                            <div class="checkbox-info">
+                                <input type="checkbox">
+                                <p>1.000.000 - 1.500.000đ</p>
+                            </div>
+
+
+                            <div class="checkbox-info">
+                                <input type="checkbox">
+                                <p>1.500.000-2.000.000đ</p>
+                            </div>
+
+                            <div class="checkbox-info">
+                                <input type="checkbox">
+                                <p>2.000.00-2.500.000đ</p>
+                            </div>
+                            <div class="checkbox-info">
+                                <input type="checkbox">
+                                <p>Giá trên 3.000.000đ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-menu-size">
+                    <div class="list-menu-size-select">
+                        <label for="A" class="select">
+                            <div class="item-size-title">Nhà sản xuất</div>
+                            <div class="icons-down">
+                                <i class="fa-solid fa-chevron-down" id="down"></i>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="main-menu-list-item ">
+                        <div class="main-menu-size-price">
+                            <label class="checkbox-info" for="filter-duoi1">
+                                <input type="checkbox" id="filter-duoi1">
+                                <p>Nike</p>
+                            </label>
+
+                            <div class="checkbox-info">
+                                <input type="checkbox">
+                                <p>Adidas</p>
+                            </div>
+
+
+                            <div class="checkbox-info">
+                                <input type="checkbox">
+                                <p>Asics</p>
+                            </div>
+
+                            <div class="checkbox-info">
+                                <input type="checkbox">
+                                <p>Hoka</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="list-menu-size">
+                    <div class="list-menu-size-select">
+                        <label for="A" class="select">
+                            <div class="item-size-title">Nâng cao</div>
+                            <div class="icons-down">
+                                <i class="fa-solid fa-chevron-down" id="down"></i>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="main-menu-list-item ">
+                        <div class="main-menu-size-price">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="buton-menu">
+                    <button><a href="">Bỏ lọc</a> </button>
+                    <button><a href="">Lọc</a></button>
+                </div>
+
+
+
+            </div>
+
+            <div class="list-menu-item">
+                <div class="list-prod">
+                    <div class="item-prod">
+                        <div class="item-prod-img">
+                            <a href=""><img src="img/giay-nike1.jpg" alt="">
+                                <img src="img/giay-nike2.jpg" alt=""></a>
+                        </div>
+
+                        <div class="item-img">
+
+                            <p>New</p>
+                            <span>-34%</span>
+
+                        </div>
+                        <div class="item-prod-content">
+                            <div class="content-start">
+                                <p>Nike</p>
+                            </div>
+                            <div class="content-name">
+                                <a>Giày Nike Court Vision Mid Nam - Đen Trắng</a>
+                            </div>
+                            <div class="content-price">
+                                <p>2.090.000đ <span>2.900.000đ</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        </div>
+    </section>
+
+
+
+    <!-- SECTION END -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+    <section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Cửa hàng của chúng tôi</h3>
+            <a href="#">Việt Nam</a>
+            <a href="#">Hàn Quốc</a>
+            <a href="#">Nhật Bản</a>
+            <a href="#">Pháp</a>
+        </div>
+
+        <div class="box">
+            <h3>Truy cập nhanh</h3>
+            <a href="#home">Trang chủ</a>
+            <a href="">Sản phẩm</a>
+            <a href="">Yêu Thích</a>
+            <a href="">Giới Thiệu</a>
+        </div>
+
+        <div class="box">
+            <h3>Liên kết phụ</h3>
+            <a href="#">Tài khoản </a>
+            <a href="#">Yêu thích </a>
+            <a href="#">Đơn đặt hàng</a>
+            <a href="#">Bản tin</a>
+        </div>
+
+        <div class="box">
+            <h3>Theo dõi chúng tôi</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+            <a href="#">linkedin</a>
+        </div>
+
+        <div class="credit"> <span> Bình Nguyễn Designer </span></div>
+
+    </div>
+
+</section>
+
+
+
+
+    <!-- review  section END -->
+
+
+
+
+</body>
+<script src="js/sanpham.js"></script>
+<script src="js/giay.js"></script>
+
+</html>

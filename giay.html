@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/giay.css">
+    <link rel="shortcut icon" href="img/Jumpman_logo.svg.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>BÌNH SHOP</title>
+</head>
+<body>
+
+    <!-- HEADER section -->
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="" class="logo">
+            <svg aria-hidden="true" class="pre-logo-svg" focusable="false" viewBox="0 0 24 24" role="img"  fill="none"><path fill="currentColor" fill-rule="evenodd" d="M21 8.719L7.836 14.303C6.74 14.768 5.818 15 5.075 15c-.836 0-1.445-.295-1.819-.884-.485-.76-.273-1.982.559-3.272.494-.754 1.122-1.446 1.734-2.108-.144.234-1.415 2.349-.025 3.345.275.2.666.298 1.147.298.386 0 .829-.063 1.316-.19L21 8.719z" clip-rule="evenodd"></path></svg>
+        </a>
+        <nav class="navbar">
+            <a href="giay.html">Trang chủ</a>
+            <a href="sanpham.html">Sản phẩm</a>
+            <a href="">Yêu Thích</a>
+            <a href="">Giới Thiệu</a>
+        </nav>
+        <div class="icons">
+            <div class="search-form">
+                <div class="search"><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></div>
+                <input type="text" placeholder="Tìm kiếm">
+            </div>
+            <i  class=" fa-solid fa-magnifying-glass" id="search-btn"></i> 
+            <a href="" class="fas fa-heart" id="heart"></a>
+            <a href="" class="fas fa-shopping-cart"></a>
+            <a href="login.html" class="fas fa-user"></a>
+        </div>
+    </header>
+
+        <!-- HEADER section END -->
+
+    <!-- SECTION START -->
+    <section class="home" id="home">
+        <div class="slide-container active">
+            <div class="slide">
+                <div class="content">
+                    <span>Giày nike đỏ</span>
+                    <h3>Giày nike metcon</h3>
+                    <p>Khách hàng sẽ được làm theo yêu cầu của khách hàng. </p>
+                    <a href="" class="btn">Thêm vào giỏ hàng</a>
+                </div>
+
+                <div class="image">
+                    <img src="img/home-shoe-1.png"  class="shoe" alt="">
+                    <img src="img/home-text-1.png"  class="text" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <span>Giày nike xanh</span>
+                    <h3>Giày nike metcon</h3>
+                    <p>Khách hàng sẽ được làm theo yêu cầu của khách hàng. </p>
+                    <a href="" class="btn">Thêm vào giỏ hàng</a>
+                </div>
+
+                <div class="image">
+                    <img src="img/home-shoe-2.png"  class="shoe" alt="">
+                    <img src="img/home-text-2.png"  class="text" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <span>Giày nike vàng</span>
+                    <h3>Giày nike metcon</h3>
+                    <p>Khách hàng sẽ được làm theo yêu cầu của khách hàng. </p>
+                    <a href="" class="btn">Thêm vào giỏ hàng</a>
+                </div>
+    
+                <div class="image">
+                    <img src="img/home-shoe-3.png" class="shoe" alt="">
+                    <img src="img/home-text-3.png" class="text" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="prev"class="fa-solid fa-chevron-left" onclick="prev()"></div>
+        <div id="next" class="fas fa-chevron-right" onclick="next()"></div>
+
+    </section>
+
+    <!-- SECTION END -->
+
+
+
+    <!-- // SECTION service -->
+    <section class="service">
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-shipping-fast"></i>
+                <h3>Chuyển phát nhanh</h3>
+                <p>Giao hàng 24/24 giờ cho quý khách.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-undo"></i>
+                <h3>Được bảo hành trong 1 tháng</h3>
+                <p>Được đổi trả nếu không vừa lòng quý khách.</p>
+            </div>
+
+
+            <div class="box">
+                <i class="fas fa-headset"></i>
+                <h3>Hỗ trợ quý khách 24 x 7 </h3>
+                <p>Nếu quý khách có thắc mắc.</p>
+            </div>
+
+
+        </div>
+        
+    </section>
+
+
+      <!-- // SECTION service end -->
+
+    <!-- product section  -->
+    <section class="products" id="products">
+        <h1 class="heading">Sản phẩm <span>Mới nhất</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="icons">
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-share"></a>
+                    <a href="" class="fas fa-eye"></a>
+                </div>
+                <img src="img/product-1.png" alt="">
+                <div class="content">
+                    <h3>Giày nike</h3>
+                    <div class="price">$120.99 <span>$150.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="" class="btn">Thêm vào giỏ hàng</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <div class="icons">
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-share"></a>
+                    <a href="" class="fas fa-eye"></a>
+                </div>
+                <img src="img/product-2.png" alt="">
+                <div class="content">
+                    <h3>Giày nike</h3>
+                    <div class="price">$120.99 <span>$150.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="" class="btn">Thêm vào giỏ hàng</a>
+                </div>
+            </div>
+
+
+
+
+            <div class="box">
+                <div class="icons">
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-share"></a>
+                    <a href="" class="fas fa-eye"></a>
+                </div>
+                <img src="img/product-3.png" alt="">
+                <div class="content">
+                    <h3>Giày nike</h3>
+                    <div class="price">$120.99 <span>$150.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="" class="btn">Thêm vào giỏ hàng</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <div class="icons">
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-share"></a>
+                    <a href="" class="fas fa-eye"></a>
+                </div>
+                <img src="img/product-4.png" alt="">
+                <div class="content">
+                    <h3>Giày nike</h3>
+                    <div class="price">$120.99 <span>$150.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="" class="btn">Thêm vào giỏ hàng</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <div class="icons">
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-share"></a>
+                    <a href="" class="fas fa-eye"></a>
+                </div>
+                <img src="img/product-5.png" alt="">
+                <div class="content">
+                    <h3>Giày nike</h3>
+                    <div class="price">$120.99 <span>$150.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="" class="btn">Thêm vào giỏ hàng</a>
+                </div>
+            </div>
+
+
+
+            <div class="box">
+                <div class="icons">
+                    <a href="" class="fas fa-heart"></a>
+                    <a href="" class="fas fa-share"></a>
+                    <a href="" class="fas fa-eye"></a>
+                </div>
+                <img src="img/product-6.png" alt="">
+                <div class="content">
+                    <h3>Giày nike</h3>
+                    <div class="price">$120.99 <span>$150.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="" class="btn">Thêm vào giỏ hàng</a>
+                </div>
+            </div>
+        </div>
+        <a href="" class="btn xthem">Xem thêm</a>
+    </section>
+
+     <!-- product section  END  -->
+
+
+     <!-- featured section star -->
+
+     <section class="featured">
+        <h1 class="heading">Sản phẩm <span>nổi bật</span></h1>
+
+        <div class="row">
+            <div class="image-container">
+                <div class="small-image">
+                    <img src="img/f-img-1.1.png" class="featured-image-1"  alt="">
+                    <img src="img/f-img-1.2.png" class="featured-image-1" alt="">
+                    <img src="img/f-img-1.3.png" class="featured-image-1" alt="">
+                    <img src="img/f-img-1.4.png" class="featured-image-1" alt="">
+                </div>
+                <div class="big-image">
+                    <img src="img/f-img-1.1.png" class="big-image-1" alt="">
+                </div>
+            </div>
+            <div class="content">
+                <h3>Giày Nike Airmax Mới </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Là một mẫu sản phẩm được nhiều người ưa thích.</p>
+                <div class="price">$80.00 <span>$120.99</span></div>
+                <a href="" class="btn">Thêm vào giỏ hàng</a>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="image-container">
+                <div class="small-image">
+                    <img src="img/f-img-2.1.png" class="featured-image-2"  alt="">
+                    <img src="img/f-img-2.2.png" class="featured-image-2" alt="">
+                    <img src="img/f-img-2.3.png" class="featured-image-2" alt="">
+                    <img src="img/f-img-2.4.png" class="featured-image-2" alt="">
+                </div>
+                <div class="big-image">
+                    <img src="img/f-img-2.1.png" class="big-image-2" alt="">
+                </div>
+            </div>
+            <div class="content">
+                <h3>Giày Nike Airmax Mới  </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Là một mẫu sản phẩm được nhiều người ưa thích.</p>
+                <div class="price">$80.00 <span>$120.99</span></div>
+                <a href="" class="btn">Thêm vào giỏ hàng</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image-container">
+                <div class="small-image">
+                    <img src="img/f-img-3.1.png" class="featured-image-3"  alt="">
+                    <img src="img/f-img-3.2.png" class="featured-image-3" alt="">
+                    <img src="img/f-img-3.3.png" class="featured-image-3" alt="">
+                    <img src="img/f-img-3.4.png" class="featured-image-3" alt="">
+                </div>
+                <div class="big-image">
+                    <img src="img/f-img-3.1.png" class="big-image-3" alt="">
+                </div>
+            </div>
+            <div class="content">
+                <h3>Giày Nike Airmax Mới  </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Là một mẫu sản phẩm được nhiều người ưa thích.</p>
+                <div class="price">$80.00 <span>$120.99</span></div>
+                <a href="" class="btn">Thêm vào giỏ hàng</a>
+            </div>
+        </div>
+     </section>
+      <!-- featured section END -->
+
+      <!-- review  section start -->
+      <!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Cửa hàng của chúng tôi</h3>
+            <a href="#">Việt Nam</a>
+            <a href="#">Hàn Quốc</a>
+            <a href="#">Nhật Bản</a>
+            <a href="#">Pháp</a>
+        </div>
+
+        <div class="box">
+            <h3>Truy cập nhanh</h3>
+            <a href="#home">Trang chủ</a>
+            <a href="">Sản phẩm</a>
+            <a href="">Yêu Thích</a>
+            <a href="">Giới Thiệu</a>
+        </div>
+
+        <div class="box">
+            <h3>Liên kết phụ</h3>
+            <a href="#">Tài khoản </a>
+            <a href="#">Yêu thích </a>
+            <a href="#">Đơn đặt hàng</a>
+            <a href="#">Bản tin</a>
+        </div>
+
+        <div class="box">
+            <h3>Theo dõi chúng tôi</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+            <a href="#">linkedin</a>
+        </div>
+
+        <div class="credit"> <span> Bình Nguyễn Designer </span></div>
+
+    </div>
+
+</section>
+
+
+
+
+      <!-- review  section END -->
+
+
+
+
+</body>
+<script src="js/giay.js"></script>
+</html>
