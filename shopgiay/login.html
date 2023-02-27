@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="shortcut icon" href="img/Jumpman_logo.svg.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Login</title>
+</head>
+<body>
+
+    <!-- HEADER section -->
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="giay.html" class="logo">
+            <svg aria-hidden="true" class="pre-logo-svg" focusable="false" viewBox="0 0 24 24" role="img"  fill="none"><path fill="currentColor" fill-rule="evenodd" d="M21 8.719L7.836 14.303C6.74 14.768 5.818 15 5.075 15c-.836 0-1.445-.295-1.819-.884-.485-.76-.273-1.982.559-3.272.494-.754 1.122-1.446 1.734-2.108-.144.234-1.415 2.349-.025 3.345.275.2.666.298 1.147.298.386 0 .829-.063 1.316-.19L21 8.719z" clip-rule="evenodd"></path></svg>
+        </a>
+        <nav class="navbar">
+            <a href="giay.html">Trang chủ</a>
+            <a href="sanpham.html">Sản phẩm</a>
+            <a href="">Yêu Thích</a>
+            <a href="">Giới Thiệu</a>
+        </nav>
+        <div class="icons">
+            <div class="search-form">
+                <div class="search"><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></div>
+                <input type="text" placeholder="Tìm kiếm">
+            </div>
+            <i  class=" fa-solid fa-magnifying-glass" id="search-btn"></i> 
+            <a href="" class="fas fa-heart" id="heart"></a>
+            <a href="" class="fas fa-shopping-cart"></a>
+            <a href="" class="fas fa-user"></a>
+        </div>
+    </header>
+
+        <!-- HEADER section END -->
+
+     <!-- SECTION START -->
+    <section class="login" id="login">
+        <div class="login-container">
+            <div class="login-box">
+                <a href="" class="logo-img">
+                    <svg aria-hidden="true" class="pre-logo-svg" focusable="false" viewBox="0 0 24 24" role="img"  fill="none"><path fill="currentColor" fill-rule="evenodd" d="M21 8.719L7.836 14.303C6.74 14.768 5.818 15 5.075 15c-.836 0-1.445-.295-1.819-.884-.485-.76-.273-1.982.559-3.272.494-.754 1.122-1.446 1.734-2.108-.144.234-1.415 2.349-.025 3.345.275.2.666.298 1.147.298.386 0 .829-.063 1.316-.19L21 8.719z" clip-rule="evenodd"></path></svg>
+                </a>
+                <div class="logo"><p>Đăng Nhập NDB</p></div>
+                <form action="">
+                    <div class="siggin">
+                        <input type="text" placeholder="Tên Đăng Nhập">
+                    </div>
+                    <div class="singin-password">
+                        <input type="password" placeholder="Nhập mật khẩu">
+                    </div>
+                </form>
+                <div class="content">
+                    <div class="checbock">
+                        <input type="checkbox" id="rember" placeholder="">
+                        <label for="rember">Nhớ mật khẩu</label>
+                    </div>
+                    <p id="next-login" >Quên mật khẩu?</p>
+                </div>
+                <div class="login-dn">
+                    <button href="" type="submit" class="dn">Đăng Nhập</button>
+                </div>
+                <div class="member">
+                    <pre>Chưa có tài khoản ?  </pre> 
+                    <p id="next-login">Đăng ký</p>
+                </div>
+            </div>
+            <!-- Đăng kí -->
+            <div class="register active">
+                <a href="" class="logo-img">
+                    <svg aria-hidden="true" class="pre-logo-svg" focusable="false" viewBox="0 0 24 24" role="img"  fill="none"><path fill="currentColor" fill-rule="evenodd" d="M21 8.719L7.836 14.303C6.74 14.768 5.818 15 5.075 15c-.836 0-1.445-.295-1.819-.884-.485-.76-.273-1.982.559-3.272.494-.754 1.122-1.446 1.734-2.108-.144.234-1.415 2.349-.025 3.345.275.2.666.298 1.147.298.386 0 .829-.063 1.316-.19L21 8.719z" clip-rule="evenodd"></path></svg>
+                </a>
+                <div class="logo"><p>Đăng ký NDB</p></div>
+                <form action="">
+                    <div class="siggin">
+                        <input type="email" placeholder="Địa chỉ email">
+                    </div>
+                    <div class="singin-password">
+                        <input type="text" placeholder="Họ">
+                    </div>
+                    <div class="singin-password">
+                        <input type="text" placeholder="Tên">
+                    </div>
+                    <div class="singin-password">
+                        <input type="date" placeholder="Tên">
+                    </div>
+                    <div class="singin-password">
+                        <input type="text" placeholder="Tên đăng nhập">
+                    </div>
+                    <div class="singin-password">
+                        <input type="password" placeholder="Mật khẩu">
+                    </div>
+                    <div class="singin-password">
+                        <input type="password" placeholder="Nhập lại mật khẩu">
+                    </div>
+                </form>
+                <div class="login-dn">
+                    <button href="" type="submit" class="dn">Đăng Kí</button>
+                </div>
+                <div class="member">
+                    <pre>Đã có tài khoản ?  </pre>
+                    <p id="next-login">Đăng nhập</p>
+                </div>
+            </div>
+            <!-- Đăng kí -->
+
+
+            <!-- Quên mật khẩu -->
+
+            <div class="Forgot-password active">
+                <a href="" class="logo-img">
+                    <svg aria-hidden="true" class="pre-logo-svg" focusable="false" viewBox="0 0 24 24" role="img"  fill="none"><path fill="currentColor" fill-rule="evenodd" d="M21 8.719L7.836 14.303C6.74 14.768 5.818 15 5.075 15c-.836 0-1.445-.295-1.819-.884-.485-.76-.273-1.982.559-3.272.494-.754 1.122-1.446 1.734-2.108-.144.234-1.415 2.349-.025 3.345.275.2.666.298 1.147.298.386 0 .829-.063 1.316-.19L21 8.719z" clip-rule="evenodd"></path></svg>
+                </a>
+                <div class="logo"><p>Quên Mật Khẩu</p></div>
+                <form action="">
+                    <div class="siggin">
+                        <input type="email" placeholder="Địa chỉ email">
+                    </div>
+                </form>
+                <div class="login-dn">
+                    <button href="" type="submit" class="dn">Gửi mã xác minh</button>
+                </div>
+                <div class="member">
+                    <pre>Quay trở lại trang  </pre>
+                    <p id="next-login" onclick="">Đăng nhập</p>
+                </div>
+            </div>
+
+              <!-- Quên mật khẩu -->
+        </div>
+          
+
+    </section>
+
+
+
+
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Cửa hàng của chúng tôi</h3>
+            <a href="#">Việt Nam</a>
+            <a href="#">Hàn Quốc</a>
+            <a href="#">Nhật Bản</a>
+            <a href="#">Pháp</a>
+        </div>
+
+        <div class="box">
+            <h3>Truy cập nhanh</h3>
+            <a href="#home">Trang chủ</a>
+            <a href="">Sản phẩm</a>
+            <a href="">Yêu Thích</a>
+            <a href="">Giới Thiệu</a>
+        </div>
+
+        <div class="box">
+            <h3>Liên kết phụ</h3>
+            <a href="#">Tài khoản </a>
+            <a href="#">Yêu thích </a>
+            <a href="#">Đơn đặt hàng</a>
+            <a href="#">Bản tin</a>
+        </div>
+
+        <div class="box">
+            <h3>Theo dõi chúng tôi</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+            <a href="#">linkedin</a>
+        </div>
+
+        <div class="credit"> <span> Bình Nguyễn Designer </span></div>
+
+    </div>
+
+</section>
+
+
+
+
+     
+
+
+
+
+</body>
+<script src="js/login.js"></script>
+<script src="js/giay.js"></script>
+</html>
