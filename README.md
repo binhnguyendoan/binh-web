@@ -1,1 +1,1 @@
-# https://binhnguyendoan.github.io/binh-web/shopgiay/giay.html
+#https://binhnguyendoan.github.io/binh-web/binhshopping/ndbshop.html
