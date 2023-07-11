@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    
+    <div class="button">
+        <button >Contact Us</button>
+
+    </div>
+
+    <div class="modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <span class="modal-close">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                    stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </span>
+            <div class="modal-main">
+                <header class="header">
+                    <h1 class="header-text">Contact Us</h1>
+
+                    <form action="" class="header-form">
+                        <div class="header-form_name">
+                            <label for="ftext" class="text">Your Name</label>
+                            <br>
+                            <input type="text" id="ftext" placeholder="enter your name" required>
+                        </div>
+                        <div class="header-form_contact">
+                            <div class="header-form_contact-number">
+                                <label for="tel" class="text">Your Phone Number</label> <br>
+                                <input type="tel" id="tel" placeholder="enter your phone number" maxlength="11">
+                            </div>
+                            <div class="header-form_contact-number">
+                                <label for="Email" class="text">Your Email</label>
+                                <br>
+                                <input type="email" id="Email" placeholder="enter your Email" required>
+                            </div>
+                        </div>
+                        <div class="header-form_location">
+                            <div class="header-form_location_major">
+                                <label for="major" class="text">major</label>
+                                <br>
+                                <select name="major" id="major">
+                                    <option value="">Computer science</option>
+                                </select>
+                            </div>
+                            <div class="header-form_location_major">
+                                <label for="major" class="text">Location to study</label>
+                                <br>
+                                <select name="major" id="major">
+                                    <option value="">New Youk</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="header-form_register">
+                            <h3 class="text">
+                                Register to
+                            </h3>
+                            <div class="header-form_register-content">
+                                <div class="header-form_register_checkbox">
+                                    <input type="checkbox" id="check">
+                                    <label for="check" class="text">Study</label>
+                                </div>
+                                <div class="header-form_register_checkbox">
+                                    <input type="checkbox" id="check">
+                                    <label for="check" class="text">Taketour</label>
+                                </div>
+                                <div class="header-form_register_checkbox">
+                                    <input type="checkbox" id="check">
+                                    <label for="check" class="text">Consult</label>
+                                </div>
+                            </div>
+
+        
+                        </div>
+        
+                        <input type="submit" class="header-form_submit" value="Submit">
+
+
+                    </form>
+
+
+
+                </header>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="js/app.js"></script>
+
+</html>

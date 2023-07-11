@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --background-form:#eeeeee;
+    --color-button:#65ace7;
+    --color-text:#444953;
+    
+}
+html{
+    font-size: 62.5%;
+    font-family:'Roboto', sans-serif;
+}
+.text{
+    font-size: 1.6rem;
+    color: var(--color-text);
+    font-weight: 500;
+}
+input{
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 1rem;
+    font-style: italic;
+    font-size: 1.4rem;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 400px;
+    button{
+        cursor: pointer;
+        font-size: 3rem;
+        padding: 1rem 1rem;
+        background-color: #000;
+        color: #fff;
+        
+    }
+   
+}
+
+
+.modal {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .4s;
+    &.active{
+        visibility: visible;
+        opacity: 1;
+    }
+    &-overlay {
+      position: absolute;
+      inset: 0;
+      background-color: rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+      
+    }
+    &-content {
+      background-color: white;
+      width: 100%;
+      max-width: 700px;
+      border-radius: 12px;
+      position: relative;
+      z-index: 10;
+      padding: 30px;
+    }
+    &-close {
+      position: absolute;
+      right: 0;
+      top: 0;
+      cursor: pointer;
+      width: 30px;
+      height: 30px;
+      border-radius: 100rem;
+      color: #000;
+      background-color: #eee;
+      padding: 5px;
+      transform: translate(50%, -50%);
+    }
+    &-main {
+      overscroll-behavior-y: contain;
+    }
+  }
+  .header{
+    &-text{
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    &-form{
+        background-color: var(--background-form);
+        padding: 2rem 4rem;
+      &_contact{
+        margin-top: 1.3rem;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        gap: 1.5rem;
+        &-number{
+            width: 100%;
+        }
+       
+      }
+      &_location{
+        margin-top: 1.3rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1.5rem;
+        &_major{
+            width: 100%;
+        }
+        
+        &_major select{
+            width: 100%;
+            padding: 1rem;
+            font-style: italic;
+            color: var(--color-text);
+        }
+      }
+      &_register{
+        margin-top: 1.3rem;
+        &-content{
+            margin-top: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        &_checkbox{
+            display: flex;
+            align-items: center;
+            
+        }
+        & label{
+            margin-left: 1rem;
+        }
+      }
+      &_submit{
+        margin-top: 1.3rem;
+        width: 20%;
+        border-radius: 1rem;
+        border: 1px solid #4299e1;
+        color: #4299e1;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+
+  }
